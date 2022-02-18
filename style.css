@@ -1,0 +1,41 @@
+.ui.grid.header{
+  margin-top: 0px;
+  padding-bottom: 5px;
+}
+
+.yellow.tag {
+  color:#eeef4d;
+  text-decoration: underline;
+  font-family: "Open Sans";
+  font-size: medium;
+}
+
+.white.text{
+  color:#FFFFFF;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 11pt;
+}
+.white.text:hover{
+  color: #F0D695;
+  text-decoration: underline;
+}
+
+.white.icon{
+  color:#FFFFFF;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 11pt;
+}
+.white.icon:hover{
+  color: #F0D695;
+  font-size: 14pt;
+}
+
+.ui.borderless.menu {
+  border-radius: 0px !important;
+  margin-top: 0px;
+  background-color: #444444;
+  color: white;
+}
+
