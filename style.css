@@ -16,6 +16,7 @@
   font-family: "Open Sans";
   font-size: 11pt;
 }
+
 .white.text:hover{
   color: #F0D695;
   text-decoration: underline;
@@ -27,6 +28,7 @@
   font-family: "Open Sans";
   font-size: 11pt;
 }
+
 .white.icon:hover{
   color: #F0D695;
   font-size: 14pt;
@@ -34,8 +36,101 @@
 
 .ui.borderless.menu {
   border-radius: 0px !important;
+  border: 0 none !important;
   margin-top: 0px;
+  box-shadow: none;
   background-color: #444444;
   color: white;
 }
 
+.ui.borderless.white.menu {
+  border-radius: 0px !important;
+  border: 0 none !important;
+  box-shadow: none;
+  margin-top: 0px;
+  background-color: #FFFFFF;
+  color: white;
+}
+
+.ui.button.black.icon{
+  color:#000000;
+  background-color: transparent;
+}
+
+.ui.button.black.icon:hover{
+  color: #F0D695;
+  background-color: transparent;
+  font-size: 14pt;
+}
+
+.dropdown.icon {
+  color: #886B33;
+}
+
+.white.plain.text{
+  color:#FFFFFF;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 11pt;
+}
+
+.black.plain.text{
+  color: #000000;
+  font-family: "Open Sans";
+  font-size: 12pt;
+}
+
+.blue.dotted.text{
+  color: #4568C5;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  font-family: "Open Sans";
+  font-size: 12pt;
+}
+
+.blue.dotted.text:hover{
+  color: #F0D695;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.white.dotted.text{
+  color: #FFFFFF;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  font-family: "Open Sans";
+  font-size: 11pt;
+}
+
+.white.dotted.text:hover{
+  color: #F0D695;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.black.header.text {
+  color: black;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+hr.gold {
+  border-top: 1px solid #B3995D;
+}
+
+.ui.bar.container{
+  width: 925px;
+}
+
+.image-campus{
+  margin-top: 15px;
+  max-height: 135px;
+  width: auto;
+}
+
+.centered.text {
+  color: #232323;
+  font-family: "Open Sans";
+  font-size: 10pt;
+  text-align: center;
+}

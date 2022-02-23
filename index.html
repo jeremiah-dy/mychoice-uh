@@ -8,8 +8,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
 </head>
 <body>
+
 <div class="ui centered grid header"
      style="background-color: #c52d28;">
   <h1>
@@ -66,16 +68,137 @@
     <a href="#" class="white icon"><i class="youtube icon"></i></a>
   </h1>
 </div>
-<div class="ui right two item menu" style="background-color: white; margin-top: 25px; border: transparent; size: landscape">
-  <div class="ui container">
-    <img src="https://www.hawaii.edu/wp/wp-content/uploads/2016/06/seal-name@2x.png"
-          alt="UH logo" style="float: left; height:auto; width: 500px">
-    <div class="ui labeled input" style="float: right">
-      <input type="text" placeholder="Enter email address" style="float: right">
-      <div class="ui button"><i class="search icon"></i></div>
+<div class="ui right two item borderless menu" style="background-color: white; margin-top: 25px; border: transparent; size: landscape">
+  <div class="item">
+    <div class="ui container">
+      <img src="https://www.hawaii.edu/wp/wp-content/uploads/2016/06/seal-name@2x.png"
+           alt="UH logo" style=" height:auto; width: 550px; float:right">
+    </div>
+  </div>
+  <div class="item">
+    <div class="ui container" style="float: right">
+      <div class="ui labeled input" style="border-color: #F0D695">
+        <input type="text" placeholder="Search">
+        <div class="ui button black icon"><i class="search icon"></i></div>
+      </div>
+      <div class="ui borderless white menu">
+        <div class="ui centered grid container">
+            <a class="ui dropdown item" style="width: 100px">
+              <div class="text">Campuses</div>
+              <i class="dropdown icon"></i>
+              <div class="menu">
+                <div class="item">Mānoa</div>
+                <div class="item">Hilo</div>
+                <div class="item">West O'ahu</div>
+              </div>
+            </a>
+            <a class="ui dropdown item" style="width: 100px">
+              <div class="text">Admissions</div>
+              <i class="dropdown icon"></i>
+              <div class="menu">
+                <div class="item">Financial Aid</div>
+                <div class="item">Scholarships</div>
+                <div class="item">Tuition</div>
+              </div>
+            </a>
+            <a class="ui dropdown item" style="width: 100px">
+              <div class="text">UH System</div>
+              <i class="dropdown icon"></i>
+              <div class="menu">
+                <div class="item">UH News</div>
+                <div class="item">Emergency</div>
+                <div class="item">Post-Pandemic Hawai'i and UH</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="ui bar container">
+  <div class="black header text">Our 10 campuses</div>
+  <hr class="gold">
+  <div class="black plain text">Founded in 1907, the University of Hawaiʻi System includes 3 universities, 7 <a class="blue dotted text">community colleges</a> and <a class="blue dotted text">community-based learning centers</a> across Hawaiʻi. As the state’s public system of higher education, UH offers opportunities as unique and diverse as our island home.</div>
+  <div class="ui five column grid container">
+      <div class="column">
+        <img class="image-campus" src="https://www.hawaii.edu/wp/wp-content/uploads/2016/05/manoa500.jpg" alt="Mānoa Campus">
+        <div class="centered text">Mānoa</div>
+        <img class="image-campus" src="https://www.hawaii.edu/wp/wp-content/uploads/2019/02/kapiolani-cc.jpg" alt="Kapiʻolani Campus">
+        <div class="centered text">Kapiʻolani</div>
+      </div>
+    <div class="column">
+      <img class="image-campus" src="https://www.hawaii.edu/wp/wp-content/uploads/2016/05/hilo500.jpg" alt="Hilo Campus">
+      <div class="centered text">Hilo</div>
+      <img class="image-campus" src="https://www.hawaii.edu/wp/wp-content/uploads/2019/02/kauai-cc.jpg" alt="Kauaʻi Campus">
+      <div class="centered text">Kauaʻi</div>
+    </div>
+    <div class="column">
+      <img class="image-campus" src="https://www.hawaii.edu/wp/wp-content/uploads/2016/05/west-oahu500.jpg" alt="West Oʻahu Campus">
+      <div class="centered text">West Oʻahu</div>
+      <img class="image-campus" src="https://www.hawaii.edu/wp/wp-content/uploads/2019/02/leeward-cc.jpg" alt="Leeward Campus">
+      <div class="centered text">Leeward</div>
+    </div>
+    <div class="column">
+      <img class="image-campus" src="https://www.hawaii.edu/wp/wp-content/uploads/2019/02/hawaii-cc-palamanui.jpg" alt="Hawaiʻi Campus">
+      <div class="centered text">Hawaiʻi</div>
+      <img class="image-campus" src="https://www.hawaii.edu/wp/wp-content/uploads/2016/05/maui500.jpg" alt="Maui Campus">
+      <div class="centered text">Maui</div>
+    </div>
+    <div class="column">
+      <img class="image-campus" src="https://www.hawaii.edu/wp/wp-content/uploads/2016/07/HCCthmb1.jpg" alt="Honolulu Campus">
+      <div class="centered text">Honolulu</div>
+      <img class="image-campus" src="https://www.hawaii.edu/wp/wp-content/uploads/2016/08/Windward_3-1.jpg" alt="Windward Campus">
+      <div class="centered text">Windward</div>
+    </div>
+ </div>
+</div>
+
+
+<div class="ui grid header"
+     style="background-color: #444444; margin-top: 25px">
+  <div class="ui four column grid container">
+    <div class="four wide column">
+      <img src="https://www.hawaii.edu/wp/wp-content/uploads/2017/10/white-seal-nameplate@2x.png" alt="Monochrome UH logo" style="height: auto; width: 200px">
+      <div class="white plain text">2444 Dole Street</div>
+      <div class="white plain text">Honolulu, HI 96822</div>
+    </div>
+    <div class="four wide column">
+      <div class="white plain text">An <a class="white dotted text">equal opportunity/affirmative action institution</a>
+        <div class="white plain text">Use of this site implies consent
+          with our <a class="white dotted text">Usage Policy</a></div>
+        <div class="white plain text">copyright © 2022</div>
+        <div class="white dotted text">University of Hawaiʻi</div>
+      </div>
+    </div>
+    <div class="four wide column">
+      <div class="white text">Calendar</div>
+      <div class="white text">Directory</div>
+      <div class="white text">Emergency Information</div>
+      <div class="white text">MyUH</div>
+      <div class="white text">Work at UH</div>
+    </div>
+    <div class="three wide column">
+      <a href="#" class="white icon"><i class="twitter icon"></i></a>
+      <a href="#" class="white icon"><i class="facebook f icon"></i></a>
+      <a href="#" class="white icon"><i class="instagram icon"></i></a>
+      <a href="#" class="white icon"><i class="flickr icon"></i></a>
+      <a href="#" class="white icon"><i class="youtube icon"></i></a>
+      <div class="white dotted text" style="padding-top: 10px; font-size: large">Contact UH</div>
+      <div class="white plain text" style="font-size: 8pt">
+        If required, information contained on
+        this website can be made available in
+        an alternative format upon request.
+      </div>
+      <div class="white dotted text" style="padding-top: 10px">Get Adobe Acrobat Reader</div>
     </div>
   </div>
 </div>
 
+
+
+<script>
+  $('.ui.dropdown')
+    .dropdown();
+</script>
 </body>
 </html>
